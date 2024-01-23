@@ -2664,10 +2664,10 @@ local Section = W:AddSection({
     Name = "Update"
 })
 
-W:AddLabel("[+] Skidder Hub is back!")
-W:AddLabel("[+] me may beo!")
-W:AddLabel("[+] anh la trum skid!!!")
-W:AddLabel("[+] Load Script Faster!")
+W:AddLabel(" Skidder Hub is back!")
+W:AddLabel(" me may beo!")
+W:AddLabel(" anh la trum skid!!!")
+W:AddLabel(" vo discord de xem sex ")
 
 local Section = W:AddSection({
     Name = "Status"
@@ -3042,7 +3042,7 @@ ToggleFarm = M:AddToggle({
     Name = "Auto Farm",
     Default = false,
     Flag = "LevelFarm",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         _G.AutoFarm = Value
         StopTween(_G.AutoFarm)
@@ -3059,7 +3059,7 @@ M:AddToggle({
     Name = "Auto Farm BF Mastery",
     Default = false,
     Flag = "Mastery",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         _G.AutoFarmFruitMastery = Value
         StopTween(_G.AutoFarmFruitMastery)
@@ -3073,7 +3073,7 @@ M:AddToggle({
     Name = "Auto Farm Gun Mastery",
     Default = false,
     Flag = "Gun Mastery",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         _G.AutoFarmGunMastery = Value
         StopTween(_G.AutoFarmGunMastery)
@@ -3099,7 +3099,7 @@ M:AddToggle({
         Name = "Skill Z",
         Default = false,
         Flag = "Skill Z",
-        Save = true,
+        Save = false,
         Callback = function(Value)
             _G.SkillZ = Value
         end    
@@ -3110,7 +3110,7 @@ M:AddToggle({
         Default = false,
         Default = false,
         Flag = "Skill X",
-        Save = true,
+        Save = false,
         Callback = function(Value)
             _G.SkillX = Value
         end    
@@ -3122,7 +3122,7 @@ M:AddToggle({
         Default = false,
         Default = false,
         Flag = "Skill C",
-        Save = true,
+        Save = false,
         Callback = function(Value)
             _G.SkillC = Value
         end    
@@ -3134,7 +3134,7 @@ M:AddToggle({
         Default = false,
         Default = false,
         Flag = "Skill V",
-        Save = true,
+        Save = false,
         Callback = function(Value)
             _G.SkillV = Value
         end    
@@ -3145,7 +3145,7 @@ M:AddToggle({
         Default = false,
         Default = false,
         Flag = "Skill F",
-        Save = true,
+        Save = false,
         Callback = function(Value)
             _G.SkillF = Value
         end    
@@ -3361,7 +3361,7 @@ M:AddToggle({
     Name = "Kaitun[Ko có kill players]",
     Default = false,
     Flag = "Kaitun",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         _G.RedeemCode = Value
         _G.AutoFarm = Value
@@ -3385,7 +3385,7 @@ M:AddToggle({
     Name = "Auto Click[Kick]",
     Default = false,
     Flag = "Auto Click",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         _G.AutoClick = Value
     end    
@@ -3470,7 +3470,7 @@ M:AddToggle({
     Name = "Auto Farm Nearest",
     Default = false,
     Flag = "Auto Farm Nearest",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         _G.AutoFarmNearest = Value
         StopTween(_G.AutoFarmNearest)
@@ -3485,7 +3485,7 @@ TweenChest = M:AddToggle({
         Name = "Auto Chest [MUP]",
         Default = false,
         Flag = "Auto Chest",
-        Save = true,
+        Save = false,
         Callback = function(Value)
             AutoFarmChest = Value
             StopTween(AutoFarmChest)
@@ -3496,7 +3496,7 @@ TweenChest = M:AddToggle({
         Name = "Auto Chest[Bypass]",
         Default = false,
         Flag = "Auto Chest[Bypass]",
-        Save = true,
+        Save = false,
         Callback = function(Value)
             _G.ChestBypass = Value
         end    
@@ -3506,7 +3506,7 @@ M:AddToggle({
     Name = "Stop Only Dark Key or God's Chalice",
     Default = false,
     Flag = "Stop Only Dark Key or God's Chalice",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         _G.StopChest = Value
     end    
@@ -3541,7 +3541,7 @@ ToggleBone = M:AddToggle({
     Name = "Auto Farm Bone",
     Default = false,
     Flag = "Auto Farm Bone",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         _G.Auto_Bone = Value
         StopTween(_G.Auto_Bone)
@@ -3552,7 +3552,7 @@ ToggleRandom = M:AddToggle({
         Name = "Auto Random Bone",
         Default = false,
         Flag = "Auto Random Bone",
-        Save = true,
+        Save = false,
         Callback = function(Value)
             _G.Auto_Random_Bone = Value
         end    
@@ -3585,7 +3585,7 @@ local EliteProgress = M:AddLabel("")
         Name = "Auto Elite",
         Default = false,
         Flag = "Auto Elite",
-        Save = true,
+        Save = false,
         Callback = function(Value)
             _G.AutoElitehunter = Value
             StopTween(_G.AutoElitehunter)
@@ -3597,7 +3597,7 @@ local EliteProgress = M:AddLabel("")
         Name = "Auto Factory",
         Default = false,
         Flag = "Auto Factory",
-        Save = true,
+        Save = false,
         Callback = function(Value)
             _G.AutoFactory = Value
             StopTween(_G.AutoFactory)
@@ -3608,7 +3608,7 @@ local EliteProgress = M:AddLabel("")
             Name = "Raid Castle",
             Default = false,
             Flag = "Auto Castle",
-            Save = true,
+            Save = false,
             Callback = function(Value)
                 _G.RaidPirate = Value
                 StopTween(_G.RaidPirate)
@@ -3623,7 +3623,7 @@ local EliteProgress = M:AddLabel("")
             Name = "Auto Katakuri",
             Default = false,
             Flag = "Auto Katakuri",
-            Save = true,
+            Save = false,
             Callback = function(Value)
                 _G.AutoDoughtBoss = Value
                 StopTween(_G.AutoDoughtBoss)
@@ -3632,7 +3632,7 @@ local EliteProgress = M:AddLabel("")
         
         M:AddToggle({
             Name = "Auto Spawn Katakuri",
-            Default = true,
+            Default = false,
             Callback = function(Value)
                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("CakePrinceSpawner",Value)
             end    
@@ -3642,7 +3642,7 @@ local EliteProgress = M:AddLabel("")
             Name = "Auto Katakuri v2",
             Default = false,
             Flag = "Auto Katakuri v2",
-            Save = true,
+            Save = false,
             Callback = function(Value)
                 _G.Autodoughking = Value
                 StopTween(_G.Autodoughking)
@@ -3653,7 +3653,7 @@ local EliteProgress = M:AddLabel("")
             Name = "Auto Katakuri v2[HOP]",
             Default = false,
             Flag = "Auto Katakuri v2[HOP]",
-            Save = true,
+            Save = false,
             Callback = function(Value)
                 _G.Hop = Value
             end    
@@ -3673,7 +3673,7 @@ M:AddParagraph("Auto Farm Boss :","Chờ Update thôi ae!!!")
         Name = "Auto Farm Observation Haki",
         Default = false,
         Flag = "Auto Farm Observation Haki",
-        Save = true,
+        Save = false,
         Callback = function(Value)
             _G.AutoObservation = Value
             StopTween(_G.AutoObservation)
@@ -3684,7 +3684,7 @@ M:AddParagraph("Auto Farm Boss :","Chờ Update thôi ae!!!")
         Name = "Auto Farm Observation Haki[HOP]",
         Default = false,
         Flag = "Auto Farm Observation Haki[HOP]",
-        Save = true,
+        Save = false,
         Callback = function(Value)
             _G.AutoObservation_Hop = Value
         end    
@@ -3698,7 +3698,7 @@ M:AddParagraph("Auto Farm Boss :","Chờ Update thôi ae!!!")
         Name = "Auto Death Step",
         Default = false,
         Flag = "Auto Death Step",
-        Save = true,
+        Save = false,
         Callback = function(Value)
             _G.AutoDeathStep = Value
         end    
@@ -3708,7 +3708,7 @@ M:AddParagraph("Auto Farm Boss :","Chờ Update thôi ae!!!")
         Name = "Auto SharkMan Karate",
         Default = false,
         Flag = "Auto SharkMan",
-        Save = true,
+        Save = false,
         Callback = function(Value)
             _G.AutoSharkman = Value
             StopTween(_G.AutoSharkman)
@@ -3719,7 +3719,7 @@ M:AddParagraph("Auto Farm Boss :","Chờ Update thôi ae!!!")
         Name = "Auto Electric Claw",
         Default = false,
         Flag = "Auto Electric Claw",
-        Save = true,
+        Save = false,
         Callback = function(Value)
             _G.AutoElectricClaw = Value
             StopTween(_G.AutoElectricClaw)
@@ -3730,7 +3730,7 @@ M:AddParagraph("Auto Farm Boss :","Chờ Update thôi ae!!!")
         Name = "Auto Dragon Talon",
         Default = false,
         Flag = "Auto Dragon Talon",
-        Save = true,
+        Save = false,
         Callback = function(Value)
             _G.AutoDragonTalon = Value
         end    
@@ -3740,7 +3740,7 @@ M:AddParagraph("Auto Farm Boss :","Chờ Update thôi ae!!!")
         Name = "Auto GodHuman",
         Default = false,
         Flag = "Auto GodHuman",
-        Save = true,
+        Save = false,
         Callback = function(Value)
             _G.Auto_God_Human = Value
         end    
@@ -3785,7 +3785,7 @@ M:AddParagraph("Auto Farm Boss :","Chờ Update thôi ae!!!")
         Name = "White screen",
         Default = false,
         Flag = "White screen",
-        Save = true,
+        Save = false,
         Callback = function(Value)
             _G.WhiteScreen = Value
 if _G.WhiteScreen == true then
@@ -3845,7 +3845,7 @@ IQ:AddToggle({
     Name = "Auto Saber",
     Default = false,
     Flag = "Auto Saber",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         _G.Auto_Saber = Value
         StopTween(_G.Auto_Saber)
@@ -3857,7 +3857,7 @@ IQ:AddToggle({
     Name = "Auto Saber[HOP]",
     Default = false,
     Flag = "Auto Saber[HOP]",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         _G.Hop = Value
     end    
@@ -3884,7 +3884,7 @@ TogglePolev1 = IQ:AddToggle({
     Name = "Auto Pole V.1",
     Default = false,
     Flag = "Auto Pole",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         _G.Autopole = Value
         StopTween(_G.AutoPole)
@@ -3895,7 +3895,7 @@ TogglePolev1Hop = IQ:AddToggle({
     Name = "Auto Pole V.1[HOP]",
     Default = false,
     Flag = "Auto Pole[HOP]",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         _G.AutopoleHop = Value
     end    
@@ -3909,7 +3909,7 @@ IQ:AddToggle({
     Name = "Auto Second Sea",
     Default = false,
     Flag = "Auto Second",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         _G.AutoSecondSea = Value
         StopTween(_G.AutoSecondSea)
@@ -3923,7 +3923,7 @@ IQ:AddToggle({
     Name = "Auto Vampire",
     Default = false,
     Flag = "Auto Vampire",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         _G.AutoVampire = Value
         StopTween(_G.AutoVampire)
@@ -3939,7 +3939,7 @@ IQ:AddToggle({
     Name = "Auto SuperHuman",
     Default = false,
     Flag = "Auto SuperHuman",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         _G.AutoSuperhuman = Value
         StopTween(_G.AutoSuperhuman)
@@ -3955,7 +3955,7 @@ BartiloToggle = IQ:AddToggle({
     Name = "Auto Bartilo Quest",
     Default = false,
     Flag = "Auto Bartilo",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         _G.AutoBartilo = Value
         StopTween(_G.AutoBartilo)
@@ -3972,7 +3972,7 @@ IQ:AddToggle({
     Name = "Auto Third Sea",
     Default = false,
     Flag = "Auto Third",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         _G.AutoThirdSea = Value
         StopTween(_G.AutoThirdSea)
@@ -3983,7 +3983,7 @@ IQ:AddToggle({
     Name = "Auto Buy Legend Sword",
     Default = false,
     Flag = "Auto Legend",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         _G.AutoBuyLegendarySword = Value
     end    
@@ -3997,7 +3997,7 @@ IQ:AddToggle({
     Name = "Auto Buddy Sword",
     Default = false,
     Flag = "Auto Buddy",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         _G.AutoBudySword = Value
         StopTween(_G.AutoBudySword)
@@ -4008,7 +4008,7 @@ IQ:AddToggle({
     Name = "Auto Buddy Sword[HOP]",
     Default = false,
     Flag = "Auto Buddy[HOP]",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         _G.Hop = Value
     end    
@@ -4022,7 +4022,7 @@ IQ:AddToggle({
         Name = "Auto Soul Guita",
         Default = false,
         Flag = "Auto Soul",
-        Save = true,
+        Save = false,
         Callback = function(Value)
             _G.AutoNevaSoulGuitar = Value    
             StopTween(_G.AutoNevaSoulGuitar)
@@ -4033,7 +4033,7 @@ IQ:AddToggle({
     Name = "Auto Soul Guita[HOP]",
     Default = false,
     Flag = "Auto Soul[HOP]",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         _G.Hop = Value  
     end    
@@ -4043,7 +4043,7 @@ IQ:AddToggle({
     Name = "Auto Auto Observation V2",
     Default = false,
     Flag = "Auto ObservationV2",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         _G.AutoObservationHakiV2 = Value  
         StopTween(_G.AutoObservationHakiV2)
@@ -4058,7 +4058,7 @@ IQ:AddToggle({
     Name = "Auto Dual Curset Katana",
     Default = false,
     Flag = "Auto DualCursetKatana",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         Auto_Cursed_Dual_Katana = Value
         StopTween(Auto_Cursed_Dual_Katana)
@@ -4073,7 +4073,7 @@ IQ:AddToggle({
     Name = "Auto Tushita",
     Default = false,
     Flag = "Auto Tushita",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         _G.Autotushita = Value
         StopTween( _G.Autotushita)
@@ -4085,7 +4085,7 @@ IQ:AddToggle({
     Name = "Auto Tushita[HOP]",
     Default = false,
     Flag = "Auto Tushita[HOP]",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         _G.Hop = Value
     end  
@@ -4099,7 +4099,7 @@ IQ:AddToggle({
     Name = "Auto Cavander",
     Default = false,
     Flag = "Auto Cavander",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         _G.AutoCarvender = Value
         StopTween( _G.AutoCarvender)
@@ -4110,7 +4110,7 @@ IQ:AddToggle({
     Name = "Auto Cavander[HOP]",
     Default = false,
     Flag = "Auto Cavander[HOP]",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         _G.Hop = Value
     end    
@@ -4124,7 +4124,7 @@ IQ:AddToggle({
             Name = "Auto Twin Hook",
             Default = false,
             Flag = "Auto Twin",
-            Save = true,
+            Save = false,
             Callback = function(Value)
                 _G.AutoTwinHook = Value
                 StopTween( _G.AutoTwinHook)
@@ -4135,7 +4135,7 @@ IQ:AddToggle({
             Name = "Auto Twin Hook[HOP]",
             Default = false,
             Flag = "Auto Twin[HOP]",
-            Save = true,
+            Save = false,
             Callback = function(Value)
                 _G.Hop = Value
             end    
@@ -4151,7 +4151,7 @@ IQ:AddToggle({
             Name = "Automatically hit the dummy",
             Default = false,
             Flag = "Auto dummy",
-            Save = true,
+            Save = false,
             Callback = function(Value)
                 _G.Namfon = Value
                 StopTween(_G.Namfon)
@@ -4162,7 +4162,7 @@ IQ:AddToggle({
             Name = "Automatically hit the dummy[HOP]",
             Default = false,
             Flag = "Auto dummy[HOP]",
-            Save = true,
+            Save = false,
             Callback = function(Value)
                 _G.Hop = Value
             end    
@@ -4176,7 +4176,7 @@ IQ:AddToggle({
             Name = "Auto Hallow Scythe",
             Default = false,
             Flag = "Auto Hallow",
-            Save = true,
+            Save = false,
             Callback = function(Value)
                 _G.AutoFarmBossHallow = Value
                 StopTween(_G.AutoFarmBossHallow)
@@ -4187,7 +4187,7 @@ ToggleHallow = IQ:AddToggle({
             Name = "Auto Hallow Scythe[HOP]",
             Default = false,
             Flag = "Auto Hallow[HOP]",
-            Save = true,
+            Save = false,
             Callback = function(Value)
                 _G.Hop = Value
             end    
@@ -4201,7 +4201,7 @@ ToggleHallow = IQ:AddToggle({
             Name = "Auto Dark Dragger",
             Default = false,
             Flag = "Auto Dark",
-            Save = true,
+            Save = false,
             Callback = function(Value)
                 _G.AutoDarkDagger = Value
                 StopTween(_G.AutoDarkDagger)
@@ -4212,7 +4212,7 @@ ToggleHallow = IQ:AddToggle({
             Name = "Auto Dark Dragger[HOP]",
             Default = false,
             Flag = "Auto Dark[HOP]",
-            Save = true,
+            Save = false,
             Callback = function(Value)
                 _G.Hop = Value
             end    
@@ -4249,7 +4249,7 @@ ToggleHallow = IQ:AddToggle({
         Name = "Auto Seabeast",
         Default = false,
         Flag = "Auto Seabeast",
-        Save = true,
+        Save = false,
         Callback = function(Value)
             _G.AutoSeaBest = Value
             StopTween(_G.AutoSeaBest)
@@ -4260,7 +4260,7 @@ IQ:AddToggle({
     Name = "Auto Seabeast[HOP]",
     Default = false,
     Flag = "Auto Seabeast[HOP]",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         _G.Hop = Value
     end    
@@ -4286,7 +4286,7 @@ IQ:AddToggle({
     Name = "Auto Summon and Find Mirrage Island",
     Default = false,
     Flag = "Auto Mirrage",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         _G.dao = Value
             if Value then
@@ -4360,7 +4360,7 @@ IQ:AddToggle({
     Name = "Find Mirrage[HOP]",
     Default = false,
     Flag = "Auto Mirrage2",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         _G.Hop =  Value
     end    
@@ -4460,7 +4460,7 @@ S:AddToggle({
     Name = "Auto Stats Kaitun",
     Default = false,
     Flag = "Auto Kaitun",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         _G.Auto_Stats_Kaitun = Value
     end    
@@ -4470,7 +4470,7 @@ S:AddToggle({
     Name = "Melee",
     Default = false,
     Flag = "Auto Melee",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         melee = Value
     end    
@@ -4480,7 +4480,7 @@ S:AddToggle({
     Name = "Defense",
     Default = false,
     Flag = "Auto Defense",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         defense = Value
     end    
@@ -4490,7 +4490,7 @@ S:AddToggle({
     Name = "Sword",
     Default = false,
     Flag = "Auto Sword",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         sword = Value
     end    
@@ -4500,7 +4500,7 @@ S:AddToggle({
     Name = "Gun",
     Default = false,
     Flag = "Auto Gun",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         gun = Value
     end    
@@ -4510,7 +4510,7 @@ S:AddToggle({
     Name = "Devil Fruit",
     Default = false,
     Flag = "Auto Fruit",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         demonfruit = Value
     end    
@@ -4520,13 +4520,13 @@ PointStats = 1
 S:AddSlider({
     Name = "Point",
     Min = 1,
-    Max = 2450,
+    Max = 2550,
     Default = 1,
     Color = Color3.fromRGB(255,255,255),
     Increment = 1,
     ValueName = "Point",
     Flag = "Auto Point",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         PointStats = Value
     end    
@@ -4540,7 +4540,7 @@ E:AddToggle({
     Name = "ESP Players",
     Default = false,
     Flag = "ESP Players",
-    Save = true,
+    Save = false,
     Callback = function(a)
         ESPPlayer = a
         UpdatePlayerChams()
@@ -4596,7 +4596,7 @@ E:AddToggle({
     Name = "ESP Fruits",
     Default = false,
     Flag = "ESP Fruits",
-    Save = true,
+    Save = false,
     Callback = function(b)
         DevilFruitESP = b
         while DevilFruitESP do wait()
@@ -4663,7 +4663,7 @@ E:AddToggle({
     Name = "ESP Island",
     Default = false,
     Flag = "ESP Island",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         IslandESP = Value
         while IslandESP do wait()
@@ -4709,7 +4709,7 @@ E:AddToggle({
     Name = "ESP Flower",
     Default = false,
     Flag = "ESP Flower",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         FlowerESP = Value
         UpdateFlowerChams() 
@@ -4803,7 +4803,7 @@ RA:AddToggle({
     Name = "Auto Start Raid",
     Default = false,
     Flag = "Auto Start",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         _G.Auto_StartRaid = Value
     end    
@@ -4818,7 +4818,7 @@ RA:AddToggle({
     Name = "KillAura",
     Default = false,
     Flag = "Auto KillAura",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         _G.Kill_Aura = Value
     end    
@@ -4828,7 +4828,7 @@ RA:AddToggle({
         Name = "Next Island",
         Default = false,
         Flag = "Auto NextIsland",
-        Save = true,
+        Save = false,
         Callback = function(Value)
             _G.Auto_Dungeon = Value
             StopTween(_G.Auto_Dungeon)
@@ -4853,7 +4853,7 @@ RA:AddToggle({
     Name = "Auto Buy Chips Law[Raid]",
     Default = false,
     Flag = "Auto Chips Law",
-    Save = true,
+    Save = falsee,
     Callback = function(Value)
         _G.Auto_Buy_Law_Chip = Value
     end    
@@ -4863,7 +4863,7 @@ RA:AddToggle({
     Name = "Start Raid Law",
     Default = false,
     Flag = "Auto Start Raid Law",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         _G.Auto_Start_Law_Dungeon = Value
     end    
@@ -5273,7 +5273,7 @@ LC:AddToggle({
     Name = "Teleport to Seabeast",
     Default = false,
     Flag = "Teleport to Seabeast",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         for i,v in pairs(game:GetService("Workspace").SeaBeasts:GetChildren()) do
             if v:FindFirstChild("HumanoidRootPart") then
@@ -5299,7 +5299,7 @@ LC:AddToggle({
     Name = "Teleport To Mirage Island",
     Default = false,
     Flag = "Teleport to Mirage",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         _G.AutoMysticIsland = Value
         StopTween(_G.AutoMysticIsland)
@@ -5649,7 +5649,7 @@ D:AddToggle({
     Name = "Auto Random Fruits",
     Default = false,
     Flag = "Auto Random Fruits",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         _G.Random_Auto = Value
     end    
@@ -5746,7 +5746,7 @@ D:AddToggle({
     Name = "Teleport To Fruit Spawn",
     Default = false,
     Flag = "Teleport To Fruit Spawn",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         _G.Tweenfruit = Value
         StopTween(_G.Tweenfruit)
@@ -5768,7 +5768,7 @@ D:AddToggle({
     Name = "Auto Drop Fruit",
     Default = false,
     Flag = "Auto Drop Fruit",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         _G.DropFruit = Value
     end    
@@ -5808,7 +5808,7 @@ D:AddToggle({
     Name = "Bring All Fruit[75% Kick]",
     Default = false,
     Flag = "Bring All Fruit[75% Kick]",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         _G.BringFruitBF = Value
     end    
@@ -5835,9 +5835,9 @@ R:AddToggle({
 	Name = "Auto Race(V1 - V2 - V3)",
 	Default = false,
     Flag = "Auto Race",
-    Save = true,
+    Save = false,
 	Callback = function(Value)
-		print("co con ckc")
+		print("co con cac nha")
 	end    
 })
 
@@ -5849,7 +5849,7 @@ AutoPullLever = R:AddToggle({
     Name = "Auto Pull Lever",
     Default = false,
     Flag = "Auto Pull Lever",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         _G.AutoPullLever = Value
 		StopTween("AutoPullLever")
@@ -5860,7 +5860,7 @@ R:AddToggle({
     Name = "Auto Turn On Race v3",
     Default = false,
     Flag = "Auto Turn On Race v3",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         _G.V3 = Value
     end    
@@ -5880,7 +5880,7 @@ R:AddToggle({
     Name = "Auto Turn On Race v4",
     Default = false,
     Flag = "Auto Turn On Race v4",
-    Save = true,
+    Save = false,
     Callback = function(Value)  
         _G.V4 = Value
     end    
@@ -5901,7 +5901,7 @@ MoveCamTooMoonToggle = R:AddToggle({
     Name = "Move Cam to Moon",
     Default = false,
     Flag = "Move Cam to Moon",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         _G.AutoDooHee = Value
     end    
@@ -5934,7 +5934,7 @@ R:AddToggle({
     Name = "Auto Buy Gear",
     Default = false,
     Flag = "Auto Buy Gear",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         _G.Auto_Farm_Bone4 = Value
         StopTween(_G.Auto_Farm_Bone4)
@@ -5963,7 +5963,7 @@ R:AddToggle({
     Name = "Auto Train Race",
     Default = false,
     Flag = "Auto Train Race",
-    Save = true,
+    Save = false,
     Callback = function(Value)
     _G.AutoRace = Value
     StardFarm = Value
@@ -6065,7 +6065,7 @@ R:AddToggle({
     Name = "Auto Complete Trials",
     Default = false,
     Flag = "Auto Complete Trials",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         _G.AutoQuestRace = Value
         StopTween(_G.AutoQuestRace)
@@ -6076,7 +6076,7 @@ R:AddToggle({
     Name = "Auto Kill Players After Trials",
     Default = false,
     Flag = "KillTrials",
-    Save = true,
+    Save = false,
     Callback = function(Value)
         KillPlayer = Value
         StopTween(KillPlayer)

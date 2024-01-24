@@ -9127,10 +9127,9 @@ spawn(
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 --RaceV4
-Tabs.Race:AddButton(
+local ToggleAutoAwakeningRace = Tabs.Race:AddToggle("ToggleAutoAwakeningRace", {Title = "Auto Turn On Race V4", Default = false})
+ToggleAutoAwakeningRace:OnChanged(
 		{	
-            Name = "Auto Turn On Race V4",
-			Default = false,
 			Callback = function(Value)
 				AutoAwakeningRace = Value
 			end    

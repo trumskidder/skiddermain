@@ -1,0 +1,6 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/trumskidder/skiddermain/main/deobf%20ho%20t%20voi"))()
+wait(.1)
+getgenv().Team = "Pirates"   -- Marine --
+getgenv().Auto_Chest = true
+getgenv().Hop_Server = true
+loadstring(game:HttpGet("https://raw.githubusercontent.com/trumskidder/alatrumskidder/main/trumskidderautochest"))()
